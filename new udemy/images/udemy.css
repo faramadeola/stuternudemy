@@ -1,0 +1,157 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1,h2{
+    margin: 15px 0;
+}
+
+p{
+    margin: 10px 0;
+}
+
+body{
+    font-family: sans-serif;
+    background-color: white;
+    color: black;
+    
+}
+.logo{
+    height: 50%;
+    width: 120px;
+}
+
+button{
+    padding: 0px 20px;
+    color: black;
+    background-color:whitesmoke ;
+    border-radius: 5px;
+    border: none;
+}
+
+.btn-top{
+    height: 60%;
+    font-weight: 600;
+}
+
+.wrapper{
+    padding: 20px;
+}
+
+nav{
+    height: 80px;
+    display: flex;
+    /* background-color: black; */
+    justify-content: space-between;
+    align-items: center;
+}
+.main{
+    /* height: 100vh; */
+    /* background-image: url("images.jpeg"); */
+    background-position: center;
+    background-size:bg-size;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    padding: 20px;
+
+}
+
+
+.content{
+    margin: 300px auto 100px;
+    text-align: center;
+    width: 50%;
+}
+
+input{
+    height: 40px;
+    width: 100%;
+}
+.input{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+input[type = "button"]{
+    background-color: red;
+    outline: none;
+    border: none;
+    width: 30%;
+    color: white;
+}
+
+.article{
+    display: flex;
+    margin: auto;
+    padding: 20px;
+    /* background-color: rgb(99, 88, 88); */
+    width: 80%;
+    justify-content: space-between;
+    border: 1px solid whitesmoke;
+    border-right: none;
+    border-left: none;
+    
+}
+
+.pic{
+    width: 200px;
+}
+
+.text{
+    width: 500px;
+}
+
+.bottom{
+    padding: 20px;
+    /* background-color: rgb(54, 41, 41); */
+    border: 1px solid whitesmoke;
+    border-right: none;
+    border-left: none;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.tab{
+    width: 60%;
+    height: 50px;
+    color: white;
+    background-color: rgb(58, 54, 54);
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    margin: 5px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.down{
+    width: 60%;
+    margin: 40px auto;
+}
+
+footer{
+    display: grid;
+    grid-template-columns: repeat(4, 200px);
+    width: 60%;
+    margin: 50px auto;
+    justify-content: space-between;
+    background-color: ;
+}
+
+.question{
+    grid-column: 1/5;
+    color: rgb(202, 191, 191);
+}
+
+a{
+    text-decoration: none;
+    color: rgb(202, 191, 191);
+    margin: 10px 0;
+    display: block;
+}
